@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Loja especial</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<body>
+<div class="cadastri">
+<form name="cadastro" method="get" action="cadastro.php">
+<table>
+<tr>
+<td><label> Nome: </label></td>
+<td><input type="text" name="nome" size="20"></td>
+</tr>
+
+<tr>
+<td>Data de Nascimento:</td>
+<td><input type="date" name="dataNascimento"></td>
+</tr>
+
+
+<tr>
+<td><label>Genero:</label></td>
+<td>
+  Masculino <input type="radio" name="genero" value="M">
+Feminino <input type="radio" name="genero" value="F">
+Prefiro não comentar <input type="radio" name="genero" value="ND">
+</td>
+</tr>
+
+<tr>
+<td><label>Senha:</label></td>
+<td><input type="password" name="confirmaSenha" size="20"></td>
+</tr>
+<tr>
+
+<tr>
+<td colspan="2">
+<input type="submit" name="enviar" class="botao" value="Enviar">
+<input type="reset" name="limpar" class="botao2" value="Limpar">
+</td>
+</tr>
+
+</table>
+</div>
+</body>
+
+</html>
